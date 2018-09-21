@@ -1,0 +1,388 @@
+2018-09-21 14:51:23 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-09-21 14:51:23 ElephantCoin version v1.0.0.0-7299f6d-dirty
+2018-09-21 14:51:23 InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
+2018-09-21 14:51:23 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-09-21 14:51:23 Assuming ancestors of block 1673fa904a93848eca83d5ca82c7af974511a7e640e22edc2976420744f2e56a have valid signatures.
+2018-09-21 14:51:23 Default data directory /root/.elephantcoin
+2018-09-21 14:51:23 Using data directory /root/.elephantcoin
+2018-09-21 14:51:23 Using config file /root/.elephantcoin/elephantcoin.conf
+2018-09-21 14:51:23 Using at most 125 automatic connections (1048576 file descriptors available)
+2018-09-21 14:51:23 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-09-21 14:51:23 Using 0 threads for script verification
+2018-09-21 14:51:23 scheduler thread start
+2018-09-21 14:51:23 libevent: getaddrinfo: address family for nodename not supported
+2018-09-21 14:51:23 Binding RPC on address ::1 port 9332 failed.
+2018-09-21 14:51:23 HTTP: creating work queue of depth 16
+2018-09-21 14:51:23 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-09-21 14:51:23 HTTP: starting 4 worker threads
+2018-09-21 14:51:23 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-09-21 14:51:23 Using wallet wallet.dat
+2018-09-21 14:51:23 init message: Verifying wallet...
+2018-09-21 14:51:23 CDBEnv::Open: LogDir=/root/.elephantcoin/database ErrorFile=/root/.elephantcoin/db.log
+2018-09-21 14:51:23 Bound to 172.18.0.5:13809
+2018-09-21 14:51:23 Cache configuration:
+2018-09-21 14:51:23 * Using 2.0MiB for block index database
+2018-09-21 14:51:23 * Using 8.0MiB for chain state database
+2018-09-21 14:51:23 * Using 440.0MiB for in-memory UTXO set (plus up to 4.8MiB of unused mempool space)
+2018-09-21 14:51:23 init message: Loading block index...
+2018-09-21 14:51:23 Opening LevelDB in /root/.elephantcoin/blocks/index
+2018-09-21 14:51:23 Opened LevelDB successfully
+2018-09-21 14:51:23 Using obfuscation key for /root/.elephantcoin/blocks/index: 0000000000000000
+2018-09-21 14:51:23 Opening LevelDB in /root/.elephantcoin/chainstate
+2018-09-21 14:51:23 Opened LevelDB successfully
+2018-09-21 14:51:23 Wrote new obfuscate key for /root/.elephantcoin/chainstate: be5d3ec36cb7a632
+2018-09-21 14:51:23 Using obfuscation key for /root/.elephantcoin/chainstate: be5d3ec36cb7a632
+2018-09-21 14:51:23 LoadBlockIndexDB: last block file = 0
+2018-09-21 14:51:23 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-09-21 14:51:23 Checking all blk files are present...
+2018-09-21 14:51:23 LoadBlockIndexDB: transaction index disabled
+2018-09-21 14:51:23 Initializing databases...
+2018-09-21 14:51:23 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-09-21 14:51:23 init message: Verifying blocks...
+2018-09-21 14:51:23  block index              54ms
+2018-09-21 14:51:23 init message: Loading wallet...
+2018-09-21 14:51:23 nFileVersion = 1000000
+2018-09-21 14:51:23 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-09-21 14:51:23 Performing wallet upgrade to 60000
+2018-09-21 14:51:23 keypool added key 1, size=1
+2018-09-21 14:51:23 keypool added key 2, size=2
+2018-09-21 14:51:24 keypool added key 3, size=3
+2018-09-21 14:51:24 keypool added key 4, size=4
+2018-09-21 14:51:24 keypool added key 5, size=5
+2018-09-21 14:51:24 keypool added key 6, size=6
+2018-09-21 14:51:24 keypool added key 7, size=7
+2018-09-21 14:51:24 keypool added key 8, size=8
+2018-09-21 14:51:24 keypool added key 9, size=9
+2018-09-21 14:51:24 keypool added key 10, size=10
+2018-09-21 14:51:24 keypool added key 11, size=11
+2018-09-21 14:51:24 keypool added key 12, size=12
+2018-09-21 14:51:24 keypool added key 13, size=13
+2018-09-21 14:51:24 keypool added key 14, size=14
+2018-09-21 14:51:24 keypool added key 15, size=15
+2018-09-21 14:51:24 keypool added key 16, size=16
+2018-09-21 14:51:24 keypool added key 17, size=17
+2018-09-21 14:51:24 keypool added key 18, size=18
+2018-09-21 14:51:24 keypool added key 19, size=19
+2018-09-21 14:51:24 keypool added key 20, size=20
+2018-09-21 14:51:24 keypool added key 21, size=21
+2018-09-21 14:51:25 keypool added key 22, size=22
+2018-09-21 14:51:25 keypool added key 23, size=23
+2018-09-21 14:51:25 keypool added key 24, size=24
+2018-09-21 14:51:25 keypool added key 25, size=25
+2018-09-21 14:51:25 keypool added key 26, size=26
+2018-09-21 14:51:25 keypool added key 27, size=27
+2018-09-21 14:51:25 keypool added key 28, size=28
+2018-09-21 14:51:25 keypool added key 29, size=29
+2018-09-21 14:51:25 keypool added key 30, size=30
+2018-09-21 14:51:25 keypool added key 31, size=31
+2018-09-21 14:51:25 keypool added key 32, size=32
+2018-09-21 14:51:25 keypool added key 33, size=33
+2018-09-21 14:51:25 keypool added key 34, size=34
+2018-09-21 14:51:25 keypool added key 35, size=35
+2018-09-21 14:51:25 keypool added key 36, size=36
+2018-09-21 14:51:25 keypool added key 37, size=37
+2018-09-21 14:51:25 keypool added key 38, size=38
+2018-09-21 14:51:25 keypool added key 39, size=39
+2018-09-21 14:51:25 keypool added key 40, size=40
+2018-09-21 14:51:25 keypool added key 41, size=41
+2018-09-21 14:51:25 keypool added key 42, size=42
+2018-09-21 14:51:25 keypool added key 43, size=43
+2018-09-21 14:51:26 keypool added key 44, size=44
+2018-09-21 14:51:26 keypool added key 45, size=45
+2018-09-21 14:51:26 keypool added key 46, size=46
+2018-09-21 14:51:26 keypool added key 47, size=47
+2018-09-21 14:51:26 keypool added key 48, size=48
+2018-09-21 14:51:26 keypool added key 49, size=49
+2018-09-21 14:51:26 keypool added key 50, size=50
+2018-09-21 14:51:26 keypool added key 51, size=51
+2018-09-21 14:51:26 keypool added key 52, size=52
+2018-09-21 14:51:26 keypool added key 53, size=53
+2018-09-21 14:51:26 keypool added key 54, size=54
+2018-09-21 14:51:26 keypool added key 55, size=55
+2018-09-21 14:51:26 keypool added key 56, size=56
+2018-09-21 14:51:26 keypool added key 57, size=57
+2018-09-21 14:51:26 keypool added key 58, size=58
+2018-09-21 14:51:26 keypool added key 59, size=59
+2018-09-21 14:51:26 keypool added key 60, size=60
+2018-09-21 14:51:26 keypool added key 61, size=61
+2018-09-21 14:51:26 keypool added key 62, size=62
+2018-09-21 14:51:27 keypool added key 63, size=63
+2018-09-21 14:51:27 keypool added key 64, size=64
+2018-09-21 14:51:27 keypool added key 65, size=65
+2018-09-21 14:51:27 keypool added key 66, size=66
+2018-09-21 14:51:27 keypool added key 67, size=67
+2018-09-21 14:51:27 keypool added key 68, size=68
+2018-09-21 14:51:27 keypool added key 69, size=69
+2018-09-21 14:51:27 keypool added key 70, size=70
+2018-09-21 14:51:27 keypool added key 71, size=71
+2018-09-21 14:51:27 keypool added key 72, size=72
+2018-09-21 14:51:27 keypool added key 73, size=73
+2018-09-21 14:51:27 keypool added key 74, size=74
+2018-09-21 14:51:27 keypool added key 75, size=75
+2018-09-21 14:51:27 keypool added key 76, size=76
+2018-09-21 14:51:27 keypool added key 77, size=77
+2018-09-21 14:51:27 keypool added key 78, size=78
+2018-09-21 14:51:27 keypool added key 79, size=79
+2018-09-21 14:51:27 keypool added key 80, size=80
+2018-09-21 14:51:27 keypool added key 81, size=81
+2018-09-21 14:51:28 keypool added key 82, size=82
+2018-09-21 14:51:28 keypool added key 83, size=83
+2018-09-21 14:51:28 keypool added key 84, size=84
+2018-09-21 14:51:28 keypool added key 85, size=85
+2018-09-21 14:51:28 keypool added key 86, size=86
+2018-09-21 14:51:28 keypool added key 87, size=87
+2018-09-21 14:51:28 keypool added key 88, size=88
+2018-09-21 14:51:28 keypool added key 89, size=89
+2018-09-21 14:51:28 keypool added key 90, size=90
+2018-09-21 14:51:28 keypool added key 91, size=91
+2018-09-21 14:51:28 keypool added key 92, size=92
+2018-09-21 14:51:28 keypool added key 93, size=93
+2018-09-21 14:51:28 keypool added key 94, size=94
+2018-09-21 14:51:28 keypool added key 95, size=95
+2018-09-21 14:51:28 keypool added key 96, size=96
+2018-09-21 14:51:29 keypool added key 97, size=97
+2018-09-21 14:51:29 keypool added key 98, size=98
+2018-09-21 14:51:29 keypool added key 99, size=99
+2018-09-21 14:51:29 keypool added key 100, size=100
+2018-09-21 14:51:29 keypool added key 101, size=101
+2018-09-21 14:51:29 keypool reserve 1
+2018-09-21 14:51:29 keypool keep 1
+2018-09-21 14:51:29  wallet                 5496ms
+2018-09-21 14:51:29 setKeyPool.size() = 100
+2018-09-21 14:51:29 mapWallet.size() = 0
+2018-09-21 14:51:29 mapAddressBook.size() = 1
+2018-09-21 14:51:29 UpdateTip: new best=28839f95a78a3b6fb4c1f8d4ea14bb43973496ddeb9e3e34c2067479548411c6 height=0 version=0x00000001 log2_work=20.000022 tx=1 date='2018-09-21 14:32:01' progress=1.000000 cache=0.0MiB(0tx)
+2018-09-21 14:51:29 mapBlockIndex.size() = 1
+2018-09-21 14:51:29 nBestHeight = 0
+2018-09-21 14:51:29 init message: Loading addresses...
+2018-09-21 14:51:29 ERROR: Read: Failed to open file /root/.elephantcoin/peers.dat
+2018-09-21 14:51:29 Invalid or missing peers.dat; recreating
+2018-09-21 14:51:29 Failed to open mempool file from disk. Continuing anyway.
+2018-09-21 14:51:29 torcontrol thread start
+2018-09-21 14:51:29 init message: Loading banlist...
+2018-09-21 14:51:29 ERROR: Read: Failed to open file /root/.elephantcoin/banlist.dat
+2018-09-21 14:51:29 Invalid or missing banlist.dat; recreating
+2018-09-21 14:51:29 init message: Starting network threads...
+2018-09-21 14:51:29 DNS seeding disabled
+2018-09-21 14:51:29 init message: Done loading
+2018-09-21 14:51:29 msghand thread start
+2018-09-21 14:51:29 addcon thread start
+2018-09-21 14:51:29 net thread start
+2018-09-21 14:51:29 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:51:29 receive version message: /ElephantCoinCore:1.0.0/: version 70015, blocks=0, us=[::]:0, peer=0
+2018-09-21 14:51:30 receive version message: /ElephantCoinCore:1.0.0/: version 70015, blocks=0, us=[::]:0, peer=1
+2018-09-21 14:51:30 receive version message: /ElephantCoinCore:1.0.0/: version 70015, blocks=0, us=[::]:0, peer=2
+2018-09-21 14:51:30 receive version message: /ElephantCoinCore:1.0.0/: version 70015, blocks=0, us=[::]:0, peer=3
+2018-09-21 14:51:31 receive version message: /ElephantCoinCore:1.0.0/: version 70015, blocks=0, us=[::]:0, peer=4
+2018-09-21 14:51:31 receive version message: /ElephantCoinCore:1.0.0/: version 70015, blocks=0, us=[::]:0, peer=5
+2018-09-21 14:51:48 keypool added key 102, size=101
+2018-09-21 14:51:48 keypool reserve 2
+2018-09-21 14:51:48 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 14:52:31 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:53:15 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 14:53:31 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:54:32 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:54:43 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 14:55:32 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:56:09 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 14:56:33 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:57:26 Pre-allocating up to position 0x100000 in rev00000.dat
+2018-09-21 14:57:26 UpdateTip: new best=eff8235a550307f6ef3f0fdf131e8050e53944402b4bbd5c199557fefd0882b7 height=1 version=0x20000000 log2_work=21.000022 tx=2 date='2018-09-21 14:56:09' progress=1.000000 cache=0.0MiB(1tx)
+2018-09-21 14:57:33 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:57:37 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 14:58:34 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 14:59:02 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 14:59:34 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:00:27 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:00:35 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:01:35 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:01:51 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:02:36 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:03:15 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:03:36 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:04:37 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:04:39 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:05:37 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:06:04 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:06:38 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:07:28 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:07:29 UpdateTip: new best=5d271243f8b7977d26903fb24a30301ce63772ba2965348641cbcd560121392e height=2 version=0x20000000 log2_work=21.584985 tx=3 date='2018-09-21 15:07:28' progress=1.000000 cache=0.0MiB(2tx)
+2018-09-21 15:07:29 AddToWallet 3c6e2dfd578c87c9e06b167a3f3d8a75c2d45495f8272c25c105321e6acc07d2  new
+2018-09-21 15:07:29 keypool keep 2
+2018-09-21 15:07:29 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:07:38 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:08:39 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:08:53 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:09:39 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:10:17 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:10:40 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:11:40 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:11:42 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:12:23 UpdateTip: new best=8037d7ac6ac784dc90429bef68bcf5e8f11906c2ae6b2bc7e9c12103e07b44fd height=3 version=0x20000000 log2_work=22.000022 tx=4 date='2018-09-21 15:11:30' progress=1.000000 cache=0.0MiB(3tx)
+2018-09-21 15:12:41 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:12:55 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 15:13:42 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:14:42 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:15:43 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:16:43 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:17:44 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:18:44 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:19:45 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:20:45 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:21:46 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:22:46 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:23:47 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:24:47 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:25:48 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:26:48 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:27:49 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:28:49 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:29:50 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:30:50 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:31:51 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:32:51 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:33:52 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:34:52 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:35:53 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:36:53 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:37:54 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:38:54 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:39:55 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:40:55 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:41:56 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:42:56 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:43:57 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:44:57 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:45:58 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:46:58 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:47:59 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:48:59 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:50:00 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:51:00 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:52:01 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:53:01 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:54:02 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:55:02 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:56:03 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:57:03 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:58:04 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 15:59:04 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:00:05 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:01:05 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:02:06 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:03:06 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:04:07 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:05:07 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:06:08 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:07:08 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:08:09 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:09:09 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:10:10 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:11:10 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:12:11 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:13:11 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:14:12 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:15:12 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:16:13 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:17:13 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:18:14 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:19:14 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:20:15 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:21:15 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:22:16 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:23:16 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:24:17 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:25:17 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:26:18 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:27:18 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:28:19 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:29:19 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:30:20 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:31:20 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:32:21 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:33:21 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:34:22 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:35:22 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:36:23 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:37:23 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:38:24 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:39:24 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:40:25 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:41:25 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:42:26 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:43:26 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:44:27 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:45:27 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:46:28 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:47:28 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:48:29 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:49:29 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:50:30 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:51:30 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:52:31 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:53:31 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:54:32 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:55:32 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:56:33 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:57:33 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:58:34 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 16:59:34 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:00:35 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:01:24 keypool added key 103, size=101
+2018-09-21 17:01:24 keypool reserve 3
+2018-09-21 17:01:24 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:01:35 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:01:53 UpdateTip: new best=62b767c019bcb6dbb86f70d9ab94ab5bb4453f96698470efe430d957bdf5803a height=4 version=0x20000000 log2_work=22.32195 tx=5 date='2018-09-21 17:01:24' progress=1.000000 cache=0.0MiB(4tx)
+2018-09-21 17:02:36 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:02:54 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:03:36 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:04:22 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:04:37 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:05:37 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:05:56 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:06:38 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:07:26 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:07:38 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:08:39 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:09:04 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:09:39 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:10:36 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:10:40 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:11:03 keypool added key 104, size=101
+2018-09-21 17:11:03 keypool reserve 4
+2018-09-21 17:11:03 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:11:19 keypool added key 105, size=101
+2018-09-21 17:11:19 keypool reserve 5
+2018-09-21 17:11:19 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:11:40 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:12:41 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:12:54 UpdateTip: new best=f842ede767b38d1b8e9da4aa5fc179d30a0d6e0618d63011dcc69a0b8697e8ed height=5 version=0x20000000 log2_work=22.584985 tx=6 date='2018-09-21 17:10:35' progress=1.000000 cache=0.0MiB(5tx)
+2018-09-21 17:13:41 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:14:15 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:14:42 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:15:40 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:15:42 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:16:07 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
+2018-09-21 17:16:43 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:17:43 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:18:44 connect() to 172.18.0.1:13809 failed after select(): Connection refused (111)
+2018-09-21 17:19:07 CreateNewBlock(): total size: 225 block weight: 900 txs: 0 fees: 0 sigops 400
